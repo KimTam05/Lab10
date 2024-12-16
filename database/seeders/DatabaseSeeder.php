@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             KNTVatTuTableSeeder::class,
             KNTNhaCCTableSeeder::class,
+            KNTDonDHTableSeeder::class,
         ]);
     }
 }
